@@ -1,0 +1,175 @@
+.root {
+    -fx-font-family: "Segoe UI", "Arial";
+    -fx-background-color: #f4f7fb;
+    -fx-text-fill: #15202b;
+}
+
+.splash {
+    -fx-background-color: linear-gradient(to bottom right, #183a37, #246a73);
+    -fx-min-width: 100%;
+    -fx-min-height: 100%;
+}
+
+.app-logo {
+    -fx-font-size: 42px;
+    -fx-font-weight: 800;
+    -fx-text-fill: #f7fff7;
+}
+
+.auth-shell .app-logo {
+    -fx-text-fill: #183a37;
+}
+
+.tagline {
+    -fx-font-size: 18px;
+    -fx-text-fill: #d7f9f1;
+}
+
+.muted {
+    -fx-text-fill: #6b7a86;
+    -fx-font-size: 13px;
+}
+
+.auth-shell {
+    -fx-background-color: #f4f7fb;
+    -fx-padding: 36px;
+}
+
+.hero-title {
+    -fx-font-size: 34px;
+    -fx-font-weight: 800;
+    -fx-text-fill: #16312f;
+}
+
+.hero-copy {
+    -fx-font-size: 16px;
+    -fx-text-fill: #425466;
+    -fx-wrap-text: true;
+}
+
+.auth-card {
+    -fx-background-color: white;
+    -fx-padding: 28px;
+    -fx-background-radius: 8px;
+    -fx-effect: dropshadow(gaussian, rgba(23, 39, 53, 0.12), 18, 0.08, 0, 8);
+    -fx-max-width: 420px;
+}
+
+.app-shell {
+    -fx-background-color: #f4f7fb;
+}
+
+.page-title {
+    -fx-font-size: 28px;
+    -fx-font-weight: 800;
+    -fx-text-fill: #16222a;
+}
+
+.page {
+    -fx-background-color: #f4f7fb;
+}
+
+.scroll {
+    -fx-background-color: transparent;
+}
+
+.scroll > .viewport {
+    -fx-background-color: transparent;
+}
+
+.section-title {
+    -fx-font-size: 20px;
+    -fx-font-weight: 800;
+    -fx-text-fill: #172735;
+}
+
+.stat-card {
+    -fx-background-color: white;
+    -fx-padding: 16px;
+    -fx-background-radius: 8px;
+    -fx-min-width: 150px;
+    -fx-effect: dropshadow(gaussian, rgba(23, 39, 53, 0.08), 12, 0.05, 0, 5);
+}
+
+.stat-title {
+    -fx-text-fill: #607080;
+    -fx-font-size: 13px;
+}
+
+.stat-value {
+    -fx-text-fill: #14242e;
+    -fx-font-size: 22px;
+    -fx-font-weight: 800;
+}
+
+.insight {
+    -fx-background-color: #e8f8f2;
+    -fx-text-fill: #164c3e;
+    -fx-padding: 16px;
+    -fx-background-radius: 8px;
+    -fx-font-size: 15px;
+}
+
+.paragraph {
+    -fx-font-size: 15px;
+    -fx-text-fill: #334452;
+}
+
+.field-label {
+    -fx-font-weight: 700;
+    -fx-text-fill: #334452;
+}
+
+.form-grid {
+    -fx-background-color: white;
+    -fx-padding: 22px;
+    -fx-background-radius: 8px;
+    -fx-effect: dropshadow(gaussian, rgba(23, 39, 53, 0.08), 12, 0.05, 0, 5);
+}
+
+.text-field,
+.password-field,
+.combo-box,
+.date-picker,
+.text-area {
+    -fx-background-radius: 6px;
+    -fx-border-radius: 6px;
+    -fx-border-color: #d8e2ea;
+    -fx-background-color: white;
+    -fx-min-height: 38px;
+}
+
+.primary-button {
+    -fx-background-color: #1f7a68;
+    -fx-text-fill: white;
+    -fx-font-weight: 800;
+    -fx-background-radius: 6px;
+    -fx-padding: 10px 18px;
+}
+
+.secondary-button {
+    -fx-background-color: #e9eef4;
+    -fx-text-fill: #20313d;
+    -fx-font-weight: 700;
+    -fx-background-radius: 6px;
+    -fx-padding: 10px 16px;
+}
+
+.tab-pane .tab-header-area .tab-header-background {
+    -fx-background-color: #f4f7fb;
+}
+
+.tab {
+    -fx-background-radius: 6px 6px 0 0;
+}
+
+.table-view {
+    -fx-background-color: white;
+    -fx-background-radius: 8px;
+    -fx-border-color: #e0e7ef;
+    -fx-border-radius: 8px;
+}
+
+.chart-row {
+    -fx-alignment: center-left;
+}
